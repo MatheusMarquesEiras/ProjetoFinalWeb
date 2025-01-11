@@ -271,6 +271,7 @@ def make_title():
     return ''.join(random.choices(string.ascii_lowercase, k=3))
 
 if __name__ == "__main__":
+    Server.pull_model()
     with app.app_context():
         db.create_all()
 

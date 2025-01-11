@@ -133,3 +133,5 @@ teste
 # password
 teste
 ```
+
+Por padrão o modelo vem baixado é o ```tinydolphin:1.1b-v2.8-q2_K``` logo voce deve baixar mais modelos que estão disponiveis no site ```https://ollama.com/search``` para isso apenas copie o nome do modelo e baixe-o nas configurações agurade um momento isso pode demorar dependendo da sua internet e selecione ele quando ele aparecer e pode continuiar ter uma conversa com ele
