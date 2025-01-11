@@ -163,6 +163,8 @@ cython_debug/
 
 .tool-versions
 
-backup
-db
 logs
+c.py
+flask_session
+flask_session_files
+./backend/models

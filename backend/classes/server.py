@@ -10,7 +10,7 @@ class ServerOllama:
         self.client = Client(host=data['LOCAL_BASE_URL'])
         # llama3:8b
         # tinydolphin:1.1b-v2.8-q2_K
-        self.model_name = 'llama3:8b'
+        self.model_name = 'tinydolphin:1.1b-v2.8-q2_K'
     
     def pull_model(self, name:str = None):
         if name is None:
@@ -18,7 +18,7 @@ class ServerOllama:
         self.client.pull(name)
     
     def stream_server_request_response(self, conversation: list):
-        system = [{'role': 'system', 'content': 'You will pretend to be a human called Luna'},]
+        system = [{'role': 'system', 'content': 'Você é uma assistente de inteligência artificial chamada Ana'},]
         messages  = conversation
         all_mesages = system + messages
         

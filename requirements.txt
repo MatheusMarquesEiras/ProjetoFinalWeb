@@ -1,0 +1,6 @@
+flask
+werkzeug
+flask_sqlalchemy
+flask_cors
+flask_session
+ollama
